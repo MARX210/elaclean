@@ -2,6 +2,24 @@
 
 Landing page da **ElaClean Higienização de Estofados** (Francisco Beltrão, PR e região), com visual escuro e cinematográfico em tom creme. Higienização de sofás, colchões, cadeiras, tapetes e outros estofados, com orçamento pelo WhatsApp.
 
+**Desenvolvido por Marx Vinicius — MV NEXUS** ([LinkedIn](https://linkedin.com/in/marxbispo001)).
+
+> ⚠️ **Projeto proprietário. Leia o [Aviso de Direitos Autorais, Plágio e Uso Restrito](#️-aviso-de-direitos-autorais-plágio-e-uso-restrito) antes de copiar, reutilizar ou publicar qualquer parte deste repositório.**
+
+## Sumário
+
+- [Visão geral](#visão-geral)
+- [Tecnologias](#tecnologias)
+- [Estrutura](#estrutura)
+- [Rodar localmente](#rodar-localmente)
+- [Publicar no GitHub](#publicar-no-github)
+- [Publicar na Vercel](#publicar-na-vercel)
+- [Avaliações do Google ao vivo (opcional)](#avaliações-do-google-ao-vivo-opcional)
+- [Personalização](#personalização)
+- [⚖️ Aviso de Direitos Autorais, Plágio e Uso Restrito](#️-aviso-de-direitos-autorais-plágio-e-uso-restrito)
+- [Autoria](#autoria)
+- [Contato](#contato)
+
 ## Visão geral
 
 - **Hero:** título "ElaClean*" gigante, navegação em pílula, logo e botão para pedir orçamento no WhatsApp.
@@ -85,6 +103,8 @@ vercel --prod # publicação em produção
 
 No painel da Vercel: **Project → Settings → Domains** e adicione o domínio. Siga as instruções de DNS mostradas.
 
+> A publicação só deve ser feita pela **ElaClean** ou por **Marx Vinicius — MV NEXUS**, ou com autorização expressa de ambos (veja o aviso abaixo).
+
 ## Avaliações do Google ao vivo (opcional)
 
 Sem configuração, a página mostra a nota 4,8, as 16 avaliações e 3 comentários fixos. Para atualizar automaticamente:
@@ -102,6 +122,7 @@ Observações:
 - Mantenha o nome do autor, o link e a atribuição "Google" junto aos comentários, como exigem os termos do Google.
 - Verifique a tabela de preços atual da Places API no Google Cloud.
 - Para testar a função localmente, use `vercel dev` com um arquivo `.env.local` baseado no `.env.example`.
+- **Nunca** publique a chave de API no repositório: use apenas variáveis de ambiente.
 
 ## Personalização
 
@@ -117,8 +138,68 @@ Observações:
 
 Paleta: fundo preto `#000000`, cartões `#101010` e `#212121`, texto creme `#E1E0CC` e `#DEDBC8`.
 
+---
+
+## ⚖️ Aviso de Direitos Autorais, Plágio e Uso Restrito
+
+**© ElaClean Higienização de Estofados · Desenvolvimento © Marx Vinicius — MV NEXUS. Todos os direitos reservados.**
+
+Este repositório é um projeto **proprietário**. **Não é software livre / open source** e **não possui licença de uso público**. O simples fato de o código estar visível ou acessível não autoriza sua cópia, reutilização ou publicação.
+
+### 🚫 É proibido, sem autorização prévia e por escrito
+
+- **Copiar, reproduzir, plagiar, redistribuir, vender ou sublicenciar** qualquer parte do projeto: código, layout, estrutura de componentes, animações, textos, imagens ou identidade visual.
+- **Clonar ou republicar** esta landing page, ainda que com outro nome, outras cores ou pequenas alterações. Alterar superficialmente uma obra copiada **não descaracteriza o plágio**.
+- **Usar a marca, o nome, o logotipo, as fotos (inclusive antes/depois) e os textos da ElaClean** em outros sites, redes sociais, materiais impressos ou projetos de terceiros.
+- **Reaproveitar o projeto como modelo, template ou base** para sites de concorrentes ou de outros clientes.
+- **Usar o conteúdo para treinar modelos de IA, gerar obras derivadas ou criar sites semelhantes.**
+- **Remover ou alterar** avisos de autoria e direitos autorais, inclusive o crédito a **Marx Vinicius — MV NEXUS**.
+- **Apresentar este trabalho como se fosse de sua autoria**, em portfólios, propostas comerciais ou redes sociais.
+
+### 🔒 Materiais protegidos
+
+| Material | Titularidade |
+|---|---|
+| Marca, nome e logotipo da ElaClean | ElaClean Higienização de Estofados |
+| Fotos antes/depois e demais imagens em `src/assets/` | ElaClean (imagens de serviços e estofados de clientes só podem ser usadas com a autorização da loja) |
+| Textos institucionais, chamadas e descrições de serviços | ElaClean |
+| Avaliações exibidas na página | Respectivos autores (clientes, via Google), exibidas apenas como referência, com atribuição |
+| Código-fonte, layout, animações e desenvolvimento desta página | **Marx Vinicius — MV NEXUS** |
+
+### ✅ Exceções
+
+- **Bibliotecas de terceiros** (React, Vite, Tailwind CSS, framer-motion, lucide-react e outras) seguem as licenças de seus respectivos autores.
+- **Fontes** seguem as licenças de seus distribuidores.
+- **Dados do Google** (avaliações e Places API) seguem os Termos de Serviço do Google.
+
+### 📚 Base legal
+
+O uso não autorizado pode configurar violação, entre outras, das seguintes normas brasileiras:
+
+- **Lei nº 9.610/1998** (Lei de Direitos Autorais): protege obras intelectuais, incluindo textos, imagens e layout, e prevê a reparação dos danos morais e patrimoniais.
+- **Lei nº 9.609/1998** (Lei do Software): protege os programas de computador e seu código-fonte.
+- **Código Penal, art. 184**: crime de violação de direito autoral.
+- **Lei nº 9.279/1996** (Propriedade Industrial): protege marcas e proíbe a sua utilização indevida.
+
+O descumprimento poderá resultar em **notificação extrajudicial, denúncia à plataforma de hospedagem (Vercel, GitHub e similares) para remoção do conteúdo (*takedown*), indenização e demais medidas civis e criminais cabíveis**.
+
+### 📩 Como pedir autorização
+
+Qualquer uso fora do descrito acima exige permissão formal e por escrito da **ElaClean** (marca e materiais da loja) e de **Marx Vinicius — MV NEXUS** (código e desenvolvimento). Entre em contato pelos canais da seção abaixo.
+
+---
+
+## Autoria
+
+**Desenvolvimento:** Marx Vinicius — **MV NEXUS**
+LinkedIn: [linkedin.com/in/marxbispo001](https://linkedin.com/in/marxbispo001)
+
 ## Contato
 
 ElaClean Higienização de Estofados · Francisco Beltrão, PR e região
 WhatsApp: (46) 99982-0653
 Instagram: [@elaclean.higienizacao.fb](https://www.instagram.com/elaclean.higienizacao.fb/)
+
+---
+
+<sub>© ElaClean Higienização de Estofados · Desenvolvido por Marx Vinicius — MV NEXUS · Todos os direitos reservados.</sub>
